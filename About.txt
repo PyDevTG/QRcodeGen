@@ -1,0 +1,3 @@
+Este executável foi criado pelo desenvolvedor: Thiago dos Santos Alves
+para gerar QRcodes, o arquivo é gratuito use para gerar seus QRCodes.
+Para mais informações entre em contato pelo email: tdsa@outlook.com

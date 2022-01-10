@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>232</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QRCode Generator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Linkedin_Profile_QRCODE.png</normaloff>Linkedin_Profile_QRCODE.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMenuBar{
+	background-color: rgb(165, 200, 255);
+	color:black;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>72</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;
+border-style:outset;
+border-color:black;
+border-width:1px;
+
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Link </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>20</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>GERADOR DE QRCODE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>174</x>
+      <y>110</y>
+      <width>143</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-color: rgb(0, 0, 0);
+	border-width:1px;
+	border-style:outset;
+	background-color: rgb(71, 135, 255);
+	text-align:left;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	border-radius:10px;
+}
+QPushButton:hover{
+	
+	background-color: rgb(167, 234, 255);
+}
+QPushButton:pressed{
+	
+	
+	background-color: rgb(105, 255, 175);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Gerar QRCODE</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>download.png</normaloff>download.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>50</y>
+      <width>97</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cole o Link Aqui</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>176</y>
+      <width>445</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>-2</y>
+      <width>97</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Eng. Thiago Alves</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>484</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <action name="actionSalva">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionBrir">
+   <property name="text">
+    <string>Brir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
