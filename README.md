@@ -9,5 +9,5 @@ QRcodeGenerator.py
  && download.png
 
 Try to run the code, this code is free.
-
+If you want to download the complete Application where you do not need to install Python or Libraries, you can get on this link: https://drive.google.com/drive/folders/1wbhmM9b8oaCYHOxZteVOulu0YL7fSHdi?usp=sharing
 
